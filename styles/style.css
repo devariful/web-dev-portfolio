@@ -9,7 +9,17 @@ nav {
 
 }
 
-/* common styles */  
+/* common styles */
+
+section {
+    padding: 0 130px;
+}
+
+.nav-section{
+    width: 1140px;
+    margin: 0 auto;
+}
+
 .section-title {
     color: var(--dark-01, #181818);
     text-align: center;
@@ -30,6 +40,7 @@ nav {
 }
 
 header {
+
     background-color: #FFF8F3;
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
@@ -100,6 +111,7 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 
+
 }
 
 /* about section styles */
@@ -150,14 +162,89 @@ main {
 .skill-description {}
 
 /* resume */
-.resume-column{
+.resume-column {}
 
-}
-.resume-column-title{
-    color:#474747;
-    font-weight: 700; 
+.resume-column-title {
+    color: #474747;
+    font-weight:700;
     font-size: 30px;
     line-height: normal;
 }
+.resume-item-title{
+    margin:0px ;
+    font-weight:600 ;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+.resume-item-institute{
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 5px 0px;
+}
+.resume-item-description{
+    color: #757575);
+        font-size: 16px;
+    font-style: normal;
+}
+.download-cv{
+  text-align: center;
+}    
+    
+
+.resume-container hr{
+    margin:30px 0px ;
+}
+
+/* footer-styles */
+
+footer{
+    margin-top: 50px;
+    background-color:  #FFF8F3;
+    
+   
+}
+.footer-section{
+    max-width:900px;
+    
+    
+    display: flex;
+    margin: 0 auto;
+    /* justify-content: center; */
+    padding: 0 130px;
+    
+    
+
+}
+.footer-column{
+    width: 50%;
+    
+    
+    
+}
+.social-links img{
+    margin-right: 30px;
+}
+
+.contact{
+    padding-right: 100px;
+    display: block;
+}
+
+.inp{
+    width: 100%;
+    border: none;
+    color: #757575;
+    padding: 15px 35px;
+    margin-bottom: 26px;
+
+}
+
+
+
 
 
